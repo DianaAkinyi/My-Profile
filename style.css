@@ -1,0 +1,67 @@
+body {
+    font-family:'Nunito';
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('techy.jpeg');
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: repeat-x;  */
+}
+
+.about-me {
+    text-align: left;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 5rem auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start; 
+}
+
+.about-me div {
+    margin: 25px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 240px; 
+    height: 240px;
+    box-shadow: 0 10px 20px rgba(228, 203, 203, 0.2); 
+    border: 5px solid #ffffff;
+    background-color: #afc9ce;
+    object-fit: cover;
+    object-position: 55% 3%}
+
+h1 {
+    color: #000000;
+    margin-bottom: 1rem;
+    text-align: center;
+    
+    
+}
+
+p {
+    color: #050000;
+    line-height: 1.0;
+    text-align: center;
+}
+.button-link {
+    display:inline-block;
+    padding: 10px 20px;
+    background-color: #a5c6cc;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+
+}
+.button-link:hover {
+    background-color: #0056b3;
+
+}
